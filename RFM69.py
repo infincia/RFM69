@@ -1,6 +1,10 @@
 #!/usr/bin/env python2
 
-from RFM69registers import *
+from __future__ import absolute_import
+from past.builtins import basestring
+
+from .RFM69registers import *
+
 import spidev
 import RPi.GPIO as GPIO
 import time
